@@ -17,7 +17,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-HUDG="*res://HUD/HUD.tscn"
+GHUD="*res://HUD/HUD.tscn"
 
 [display]
 
