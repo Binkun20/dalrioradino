@@ -126,28 +126,27 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h4fb2"]
-size = Vector2(117.5, 96)
+size = Vector2(98, 106)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_snt4n"]
-size = Vector2(105, 117)
+size = Vector2(111, 90)
 
 [node name="player" type="CharacterBody2D" groups=["dinosaurio"]]
 script = ExtResource("1_6uf4i")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(78, 99)
-scale = Vector2(6.52604, 6.93041)
+position = Vector2(78, 104.082)
+scale = Vector2(6.52604, 6.50687)
 sprite_frames = SubResource("SpriteFrames_210gy")
 animation = &"defult"
-frame_progress = 0.943465
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(79, 110)
+position = Vector2(75, 105)
 shape = SubResource("RectangleShape2D_h4fb2")
 debug_color = Color(0.943074, 7.31587e-06, 0.603273, 0.42)
 
 [node name="CrouchCollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(70.5, 101.5)
+position = Vector2(82.5, 115)
 shape = SubResource("RectangleShape2D_snt4n")
 debug_color = Color(0.72963, 0.473597, 0, 0.42)
 

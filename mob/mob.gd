@@ -4,11 +4,12 @@ signal hit
 
 
 func _ready():
+	GHUD.mob_counter = GHUD.mob_counter + 1
 	var collision = [
-		$CollisionA,
+		$CollisionA, $CollisionB, $CollisionC, $CollisionD, $CollisionE
 	] 
 	var sprites = [
-		$SpriteA
+		$SpriteA, $SpriteB, $SpriteC, $SpriteD, $SpriteE
 		]
 
 	var random_int = randi() % collision.size()
@@ -21,6 +22,8 @@ func _ready():
 
 
 func _on_visible_on_screen_notifier_2d_screen_exited():
+	if GHUD.mob_counter > 0:
+		GHUD.mob_counter = GHUD.mob_counter -1
 	queue_free()
 
 
