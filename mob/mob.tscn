@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://2qj4at653dfr"]
 
 [ext_resource type="Script" path="res://mob/mob.gd" id="1_q87nt"]
-[ext_resource type="Texture2D" path="res://mob/Flowey.png" id="2_8bgnk"]
+[ext_resource type="Texture2D" uid="uid://blnap5w4wofst" path="res://mob/Flowey.png" id="2_8bgnk"]
 [ext_resource type="Texture2D" uid="uid://cgrra6f5gqhe1" path="res://mob/mounstros.png" id="2_aqiim"]
 [ext_resource type="Texture2D" uid="uid://d3ql6yg327brk" path="res://mob/Frogit.png" id="3_pao1k"]
 [ext_resource type="Texture2D" uid="uid://cmnukmq23kyq" path="res://mob/knigth moth.png" id="4_d31au"]
