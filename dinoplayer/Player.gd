@@ -1,13 +1,13 @@
 extends CharacterBody2D
 
-const SPEED = 500
+const SPEED = 350
 const JUMP_VELOCITY = -1000
 const GRAVITY = 2600
 var speed_scale = 1
 
 func _physics_process(delta):
 	if GHUD.is_playing == true:
-		if GHUD.score >150:
+		if GHUD.score >200:
 			speed_scale = GHUD.score/150
 		$AnimatedSprite2D.speed_scale = speed_scale
 		if is_on_floor():

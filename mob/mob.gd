@@ -23,7 +23,7 @@ func _ready():
 
 func _on_visible_on_screen_notifier_2d_screen_exited():
 	if GHUD.mob_counter > 0:
-		GHUD.mob_counter = GHUD.mob_counter -1
+		GHUD.mob_counter = GHUD.mob_counter -2
 	queue_free()
 
 

@@ -13,6 +13,7 @@ func _ready():
 func game_over():
 	GHUD.update_high_score_label()
 	$MOBTimer.stop()
+	$Pla
 
 	
 func new_game():
